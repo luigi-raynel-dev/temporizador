@@ -1,0 +1,47 @@
+<!DOCTYPE html><!-- Declaração de um documento HTML5 -->
+<html lang="pt-br"><!--Estrutura de um documento HTML e dissemos ao navegador que a linguagem é português do Brasil-->
+<head><!-- Declaração de dados, links para documentos de estilização e comportamentos ao navegador -->
+    <!-- Título do site -->
+    <title>Temporizador em JS</title>
+    <!-- Meta dados do site -->
+    <meta charset="utf-8"><!-- Meta dado defiido para a linguagem latina-americana -->
+    <meta name="description" content="Alarme feito com Javascript"><!-- Descrição site -->
+    <meta name="keywords" content="carros, veiculos, especiais"><!-- meta dados de SEO com palavras-chaves -->
+    <meta name="author" content="Dev L.R"><!-- Autor do site -->
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0,maximum-scale=1.0"><!--Meta responsivo vw -->
+    <!-- Links de estilo -->
+    <link rel="stylesheet" href="style.css"> <!-- Dizendo ao meu documento onde estará a folha de estilo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"><!--Oswald-->
+    <link rel="shortcut icon" href="favicon.ico" />
+</head><!-- Fechamento da tag head -->
+<body>
+    <audio id="sound" src="alarm.mp3" style="display: none;"></audio>
+
+    <div class="container">
+        <div class="clock-wraper">
+        <h1><i class="fas fa-stopwatch"></i></h1>
+        <div class="clock">
+        <h2>Minutos:</h2>
+        <select id="minutos" name="minutos"></select>
+        <h2>Segundos:</h2>
+        <select id="segundos" name="segundos"></select>
+        <br>
+        <br>
+        <div class="button-center">
+        <button id="comecar">Começar</button>
+        <button id="parar">Parar</button>
+        </div>
+        <div id="display">
+            <h3></h3>
+        </div><!--display-->
+    </div><!-- clock -->
+    </div><!-- wraper -->
+    </div><!--container-->
+    
+<script src="function.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/0.0.11/push.min.js"></script>
+
+</body>
+
+</html>
