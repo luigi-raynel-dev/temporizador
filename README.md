@@ -1,4 +1,4 @@
-#  **`Temporizador`** :heavy_check_mark:
+#  :hourglass_flowing_sand: **`Temporizador`** :hourglass_flowing_sand:
 Um simples temporizador desenvolvido com javascript puro.
 
 **[Clique aqui](https://luigi-raynel-dev.github.io/temporizador/) para acessar o site do projeto**
@@ -7,7 +7,7 @@ Um simples temporizador desenvolvido com javascript puro.
 Este temporizador permite que você defina um tempo e quando esse tempo acabar irá disparar um som de alarme e será notificado. Além disso ele também possui a possibilidade de parar o alarme quando o mesmo for disparado.
 # * 。 • ˚ ˚ ˛ ˚ ˛ • 。* 。° 。* 。 • ˚* 。 • ˚ ˚ ˛ ˚ ˛ • 。* 。° 。* 。 • ˚
 ### `Imagens do projeto`📷
-![alt](images/template.jpeg)
+![alt](template.jpeg)
  ----
 # * 。 • ˚ ˚ ˛ ˚ ˛ • 。* 。° 。* 。 • ˚* 。 • ˚ ˚ ˛ ˚ ˛ • 。* 。° 。* 。 • ˚
 ### `O QUE EU APRENDI COM O PROJETO?` :thinking:
